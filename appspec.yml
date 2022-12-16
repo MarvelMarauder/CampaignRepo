@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-  - source: /css/styles.css
-    destination: /var/www/html/css
+  - source: /css
+    destination: /var/www/html
   - source: /js/scripts.js
     destination: /var/www/html/js
 hooks:
